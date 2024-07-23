@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 22px 32px 0px 32px;
+    border: 2px solid transparent;
+}
+
+.left {
+    font-size: 2.5rem;
+    cursor: cell;
+}
+
+.right ul {
+    display: flex;
+    gap: 17px;
+}
+
+.right ul li {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navList:hover {
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background-color: #4392d5;
+    color: black;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.active{
+    background-color: #4392d5;
+    border: 2px solid #4392d5;
+    padding: 6px;
+    border-radius: 12px;
+    color: black;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+    .left {
+        font-size: 2rem;
+    }
+
+    .right ul li {
+        font-size: 1.8rem;
+        ;
+        padding-top: 4px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .right ul li {
+        font-size: 1.4rem;
+        ;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .right {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.PortfolioHeading{
+    color: white;
+    font-size: 70px;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.cards{
+    display: flex;
+    gap: 12px;
+}

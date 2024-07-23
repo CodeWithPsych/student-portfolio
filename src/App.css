@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: linear-gradient(to right, #1d032f, #000000);
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

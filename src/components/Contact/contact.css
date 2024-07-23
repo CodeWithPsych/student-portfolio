@@ -1,0 +1,18 @@
+.contact{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 34px;
+}
+.contactHeading{
+    font-size: 70px;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.form{
+    width: 20rem;
+}

@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.aboutHeading {
+    font-size: 72px;
+    border-radius: 22px 12px;
+    padding: 12px;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aboutPara {
+    font-size: 22px;
+    padding: 22px 4rem;
+    text-align: center;
+    line-height: 1.8;
+}
